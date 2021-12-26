@@ -1,22 +1,36 @@
 # Installation
 
-- <b>[Pyrogram String](https://github.com/HeimanPictures/String-Session/wiki/Installation#pyrogram-session)</b>
+## Pyrogram String
 
-- <b>[Telethon String](https://github.com/HeimanPictures/String-Session/wiki/Installation#telethon)</b>
+`pkg install git`
+
+`pkg install python`
+
+`git clone https://github.com/Shailendra34/SS`
+
+`cd SS`
+
+`pip3 install -r requirements_pyro.txt`
+
+`python3 genstring_pyro.py`
 
 
-## Wiki
+## Telethon String
 
-- <b>[How To Get API](https://github.com/HeimanPictures/String-Session/wiki/APIs#telegram-apis)</b>
+`pkg install git`
 
-- <b>[Installation](https://github.com/HeimanPictures/String-Session/wiki/Installation#installation-to-get-string-session)</b>
+`pkg install python`
 
-    - <b>[Pyrogram String](https://github.com/HeimanPictures/String-Session/wiki/Installation#pyrogram-session)</b>
+`git clone https://github.com/Shailendra34/SS`
 
-    - <b>[Telethon String](https://github.com/HeimanPictures/String-Session/wiki/Installation#telethon)</b>
+`cd SS`
+
+`pip3 install -r requirements_tele.txt`
+
+`python3 genstring_tele.py`
 
 
-# Remember
+## Remember
 
 - Don't Ever Share Session Code With Others And Change Session Codes, if you have Shared.
 - Don't Depend On Others For This Little Job.
@@ -29,6 +43,6 @@ New Session.
 
 # Credits
 
-- <b>[HeimanCreation](https://telegram.dog/HeimanCreation)</b>
+- <b>[Shailendra34](https://t.me/Shailendra34)</b>
 - Thanks To [Dan's](https://github.com/delivrance) <b>[Pyrogram Library](https://github.com/pyrogram/pyrogram)</b>
 - Thanks To [Lonami's](https://github.com/Lonami) <b>[Telethon Library](https://github.com/LonamiWebs/Telethon)</b>

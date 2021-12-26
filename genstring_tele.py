@@ -2,18 +2,10 @@ from telethon.sessions import StringSession
 from telethon.sync import TelegramClient
 
 heiman_ = """
-xx    xx  xxxxxx  xx  xxx      xxx      xxx      xxx   xx
-xx    xx  xx      xx  xxxx    xxxx     xx xx     xxxx  xx
-xxxxxxxx  xxxxxx  xx  xx xx  xx xx    xxxxxxx    xx xx xx
-xx    xx  xx      xx  xx  xxx   xx   xx     xx   xx  xxxx
-xx    xx  xxxxxx  xx  xx   x    xx  xx       xx  xx   xxx
-▲                     ---➤ HeimanPictures/String-Session                      HC▼
-
-Copyright (C) 2021 by HeimanPictures@Github, < https://github.com/HeimanPictures >.
+Copyright (C) 2021 by @Shailendra34
 This file is part of dev project,
 and is released under the "MIT License Agreement".
-Please see < https://github.com/HeimanPictures/String-Session/blob/Main/LICENSE >
-All rights reserved.
+Telegram @Shailendra34 and @Modmenumaking
 """
 
 print(heiman_)
@@ -23,7 +15,7 @@ api_hash = input("Enter Your API HASH : \n")
 with TelegramClient(StringSession(), api_id, api_hash) as client:
     print("Check your Telegram Saved Messages to copy the STRING_SESSION value")
     session_string = client.session.save()
-    saved_messages_template = """Support: @HeimanSupports
+    saved_messages_template = """Thanks To @Shailendra34 \n
 <code>STRING_SESSION</code>: <code>{}</code>
 ⚠️ <i>Please be carefull to pass this value to third parties</i>""".format(session_string)
     client.send_message("me", saved_messages_template, parse_mode="html")

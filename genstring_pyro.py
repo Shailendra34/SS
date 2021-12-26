@@ -2,18 +2,10 @@ import pyrogram
 from pyrogram import Client
 
 heiman_ = """
-xx    xx  xxxxxx  xx  xxx      xxx      xxx      xxx   xx
-xx    xx  xx      xx  xxxx    xxxx     xx xx     xxxx  xx
-xxxxxxxx  xxxxxx  xx  xx xx  xx xx    xxxxxxx    xx xx xx
-xx    xx  xx      xx  xx  xxx   xx   xx     xx   xx  xxxx
-xx    xx  xxxxxx  xx  xx   x    xx  xx       xx  xx   xxx
-▲                     ---➤ HeimanPictures/String-Session                      HC▼
-
-Copyright (C) 2021 by HeimanPictures@Github, < https://github.com/HeimanPictures >.
+Copyright (C) 2021 by @Shailendra34
 This file is part of dev project,
 and is released under the "MIT License Agreement".
-Please see < https://github.com/HeimanPictures/String-Session/blob/Main/LICENSE >
-All rights reserved.
+Telegram @Shailendra34 and @Modmenumaking
 """
 
 print(heiman_)
@@ -22,6 +14,6 @@ api_hash = input("Enter Your API HASH : \n")
 
 with Client("Heiman", api_id=api_id, api_hash=api_hash) as bot:
     first_name = (bot.get_me()).first_name
-    string_session_ = f"<b>String Session For {first_name}</b> \nThanks To @HeimanSupports \n<code>{bot.export_session_string()}</code>"
+    string_session_ = f"<b>😎 sᴛʀɪɴɢ 🤟 sᴇssɪᴏɴ 🔥 ғᴏʀ ❤ {first_name}</b> \nᴛʜᴀɴᴋs ✌ ᴛᴏ 💞 @Shailendra34 \n\n<code>{bot.export_session_string()}</code> 🇮🇳"
     bot.send_message("me", string_session_, parse_mode="html")
     print(f"String Has Been Sent To Your Saved Message : {first_name}")

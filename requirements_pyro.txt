@@ -1,1 +1,1 @@
-pyrogram
+git+https://github.com/Shailendra34/pyrogram@master
